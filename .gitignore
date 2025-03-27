@@ -1,0 +1,60 @@
+# Virtual environment
+core_values_env/
+dynamic_rhythm_env/
+net_zero_env/
+venv/
+.env
+*.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+
+datasets/raw/
+datasets/processed/
+datasets/external/
+*.csv
+*.xlsx
+*.parquet
+*.h5
+*.json
+*.zip
+*.tar.gz
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.sav
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.err
+
+# Reports and results
+reports/
+*.html
+*.pdf
+
+# VSCode & IDE settings
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Git-related
+*.orig
